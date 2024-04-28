@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello"
+      ],
+      "responses": [
+        "Hello! Welcome to the Educators' Platform. How can I assist you?",
+        "Hi there! How can I help you today?",
+        "Hey! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        " ",
+        "Can you provide me with Esprit's contact information?",
+        "How can I contact Esprit?"
+      ],
+      "responses": [
+        "You can contact Esprit at (+216) 70 250 000 or via email at contact@esprit.tn.",
+        "Esprit can be reached at (+216) 70 250 000 or contact@esprit.tn.",
+        "The contact number for Esprit is (+216) 70 250 000, and you can also email them at contact@esprit.tn."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is Esprit located?",
+        "Can you give me directions to Esprit?",
+        "What is the address of Esprit?"
+      ],
+      "responses": [
+        "Esprit is located at 2 rue André Ampère - 2083 - Pôle Technologique - El Ghazala.",
+        "The address of Esprit is 2 rue André Ampère - 2083 - Pôle Technologique - El Ghazala.",
+        "Esprit is situated at 2 rue André Ampère - 2083 - Pôle Technologique - El Ghazala."
+      ]
+    },
+    {
+      "tag": "why_choose_esprit",
+      "patterns": [
+        "Why should I choose Esprit?",
+        "What makes Esprit special?",
+        "Tell me more about Esprit."
+      ],
+      "responses": [
+        "Esprit offers certifying and qualifying training programs to enhance the skills and knowledge of participants.",
+        "Our training catalog is rich and diverse, providing opportunities for all levels of experience and education.",
+        "We are here to support you and help you identify your needs for qualified training, connecting you with companies that can benefit from your enhanced skills."
+      ]
+    },
+    {
+      "tag": "course_catalog",
+      "patterns": [
+        "Can I see the course catalog?",
+        "Where can I find information about courses?",
+        "Tell me about the courses offered at Esprit."
+      ],
+      "responses": [
+        "You can consult our course catalog to discover all our offerings and find the one that suits you best.",
+        "Check out our course catalog to explore all our offers and find the perfect fit for you.",
+        "Our course catalog provides comprehensive information about all the courses available at Esprit."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+         "Hi",
+         "How are you?",
+         "Is anyone there?",
+         "Hello",
+         "Good day",
+         "What's up",
+         "how are ya",
+         "heyy",
+         "whatsup",
+         "??? ??? ??"
+      ],
+      "responses": [
+         "Hello!",
+         "Good to see you again!",
+         "Hi there, how can I help?"
+      ],
+      "context_set": ""
+   },
+    {
+      "tag": "goodbye",
+      "patterns": [
+         "cya",
+         "see you",
+         "bye bye",
+         "See you later",
+         "Goodbye",
+         "I am Leaving",
+         "Bye",
+         "Have a Good day",
+         "talk to you later",
+         "ttyl",
+         "i got to go",
+         "gtg"
+      ],
+      "responses": [
+         "Sad to see you go :(",
+         "Talk to you later",
+         "Goodbye!",
+         "Come back soon"
+      ],
+      "context_set": ""
+   }
+  ]
+}
