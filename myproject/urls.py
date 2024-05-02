@@ -12,5 +12,6 @@ urlpatterns = [
     path('chatbot/', chat, name='chatbot'),
     path('summarize/', summarize, name='summarize'),
     path('summarize-pdf/', summarize_pdf_view, name='summarize_pdf'),
+    path('predict_top_events/', predict_top_events, name='predict_top_events'),
 
 ]
