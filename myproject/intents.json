@@ -1,114 +1,145 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "Hello"
-      ],
-      "responses": [
-        "Hello! Welcome to the Educators' Platform. How can I assist you?",
-        "Hi there! How can I help you today?",
-        "Hey! How can I assist you?"
-      ]
-    },
-    {
-      "tag": "contact_info",
-      "patterns": [
-        " ",
-        "Can you provide me with Esprit's contact information?",
-        "How can I contact Esprit?"
-      ],
-      "responses": [
-        "You can contact Esprit at (+216) 70 250 000 or via email at contact@esprit.tn.",
-        "Esprit can be reached at (+216) 70 250 000 or contact@esprit.tn.",
-        "The contact number for Esprit is (+216) 70 250 000, and you can also email them at contact@esprit.tn."
-      ]
-    },
-    {
-      "tag": "location",
-      "patterns": [
-        "Where is Esprit located?",
-        "Can you give me directions to Esprit?",
-        "What is the address of Esprit?"
-      ],
-      "responses": [
-        "Esprit is located at 2 rue André Ampère - 2083 - Pôle Technologique - El Ghazala.",
-        "The address of Esprit is 2 rue André Ampère - 2083 - Pôle Technologique - El Ghazala.",
-        "Esprit is situated at 2 rue André Ampère - 2083 - Pôle Technologique - El Ghazala."
-      ]
-    },
-    {
-      "tag": "why_choose_esprit",
-      "patterns": [
-        "Why should I choose Esprit?",
-        "What makes Esprit special?",
-        "Tell me more about Esprit."
-      ],
-      "responses": [
-        "Esprit offers certifying and qualifying training programs to enhance the skills and knowledge of participants.",
-        "Our training catalog is rich and diverse, providing opportunities for all levels of experience and education.",
-        "We are here to support you and help you identify your needs for qualified training, connecting you with companies that can benefit from your enhanced skills."
-      ]
-    },
-    {
-      "tag": "course_catalog",
-      "patterns": [
-        "Can I see the course catalog?",
-        "Where can I find information about courses?",
-        "Tell me about the courses offered at Esprit."
-      ],
-      "responses": [
-        "You can consult our course catalog to discover all our offerings and find the one that suits you best.",
-        "Check out our course catalog to explore all our offers and find the perfect fit for you.",
-        "Our course catalog provides comprehensive information about all the courses available at Esprit."
-      ]
-    },
-    {
-      "tag": "greeting",
-      "patterns": [
-         "Hi",
-         "How are you?",
-         "Is anyone there?",
-         "Hello",
-         "Good day",
-         "What's up",
-         "how are ya",
-         "heyy",
-         "whatsup",
-         "??? ??? ??"
-      ],
-      "responses": [
-         "Hello!",
-         "Good to see you again!",
-         "Hi there, how can I help?"
-      ],
-      "context_set": ""
-   },
-    {
-      "tag": "goodbye",
-      "patterns": [
-         "cya",
-         "see you",
-         "bye bye",
-         "See you later",
-         "Goodbye",
-         "I am Leaving",
-         "Bye",
-         "Have a Good day",
-         "talk to you later",
-         "ttyl",
-         "i got to go",
-         "gtg"
-      ],
-      "responses": [
-         "Sad to see you go :(",
-         "Talk to you later",
-         "Goodbye!",
-         "Come back soon"
-      ],
-      "context_set": ""
-   }
-  ]
-}
+   "intents": [
+     {
+       "tag": "greeting",
+       "patterns": [
+         "Salut",
+         "Hey",
+         "Bonjour",
+         "Bonjour (matin)",
+         "Bon après-midi",
+         "Bonsoir"
+       ],
+       "responses": [
+         "Bonjour ! Bienvenue au Gym. Comment puis-je vous aider aujourd'hui ?",
+         "Salut ! Comment puis-je vous aider avec vos objectifs de fitness ?",
+         "Hey ! Comment puis-je vous assister avec nos services de gym ?",
+         "Bonjour ! Comment puis-je soutenir votre parcours de fitness aujourd'hui ?",
+         "Bon après-midi ! Comment puis-je vous aider avec votre entraînement ?",
+         "Bonsoir ! Faites-moi savoir comment je peux vous aider avec vos besoins en fitness."
+       ]
+     },
+     {
+       "tag": "courses_info",
+       "patterns": [
+         "Quels cours proposez-vous ?",
+         "Parlez-moi de vos cours de fitness.",
+         "Pouvez-vous me donner des informations sur vos programmes de gym ?",
+         "Quels sont les cours de fitness disponibles ?",
+         "Avez-vous des cours de fitness en groupe ?",
+         "Quels types de cours d'entraînement proposez-vous ?"
+       ],
+       "responses": [
+         "Nous proposons une variété de cours de fitness, y compris Yoga, Pilates, Zumba, Musculation, et Cardio. Pour le programme complet et les détails, veuillez consulter notre site web ou nous contacter directement.",
+         "Notre gym propose des cours tels que Yoga, Pilates, Entraînement par Intervalles à Haute Intensité (HIIT), Spinning, et plus encore. Consultez notre programme en ligne ou renseignez-vous à la réception.",
+         "Nous avons une gamme de programmes comme Cardio, Musculation, Cours de Flexibilité, et séances de fitness en groupe. Visitez notre site web pour plus d'informations ou parlez à notre personnel."
+       ]
+     },
+     {
+       "tag": "membership_info",
+       "patterns": [
+         "Quels sont vos options d'adhésion ?",
+         "Pouvez-vous me donner des détails sur les plans d'adhésion ?",
+         "Combien coûte une adhésion au gym ?",
+         "Parlez-moi de vos forfaits d'adhésion.",
+         "Quels sont les avantages de votre adhésion ?"
+       ],
+       "responses": [
+         "Nous offrons divers plans d'adhésion, y compris des options mensuelles, trimestrielles et annuelles. Chaque plan offre différents avantages comme un accès illimité aux cours et aux équipements de gym. Pour les détails des prix, veuillez nous contacter ou visiter notre site web.",
+         "Nos options d'adhésion vont des forfaits de base aux forfaits premium, chacun ayant ses propres avantages. Contactez notre équipe pour des informations détaillées sur les prix et les avantages de chaque type d'adhésion.",
+         "Nous avons des plans d'adhésion flexibles pour répondre à différents besoins, y compris des adhésions individuelles et familiales. Veuillez contacter notre service client pour les prix et les avantages détaillés."
+       ]
+     },
+     {
+       "tag": "personal_training",
+       "patterns": [
+         "Offrez-vous des services de coaching personnel ?",
+         "Puis-je réserver un entraîneur personnel ?",
+         "Parlez-moi de vos options de coaching personnel.",
+         "Comment puis-je programmer une séance avec un entraîneur personnel ?",
+         "Quels sont les tarifs pour le coaching personnel ?"
+       ],
+       "responses": [
+         "Oui, nous proposons des services de coaching personnel adaptés à vos objectifs de fitness. Vous pouvez réserver une séance avec l'un de nos entraîneurs certifiés en contactant le gym ou en parlant à notre réception.",
+         "Nous avons des entraîneurs personnels expérimentés disponibles pour vous aider à atteindre vos objectifs de fitness. Pour programmer une séance, veuillez nous contacter ou visiter la réception pour plus d'informations sur les tarifs et la disponibilité.",
+         "Les séances de coaching personnel sont disponibles et peuvent être personnalisées en fonction de vos besoins. Pour programmer et connaître les tarifs, veuillez contacter notre personnel ou consulter notre site web."
+       ]
+     },
+     {
+       "tag": "nutrition_advice",
+       "patterns": [
+         "Pouvez-vous me donner des conseils nutritionnels ?",
+         "Que devrais-je manger avant et après un entraînement ?",
+         "Avez-vous des recommandations alimentaires pour les membres du gym ?",
+         "Parlez-moi des conseils nutritionnels pour le fitness.",
+         "Comment puis-je améliorer mon alimentation pour de meilleurs résultats en fitness ?"
+       ],
+       "responses": [
+         "Pour de meilleurs résultats, mangez un repas équilibré avec des protéines et des glucides environ 1 à 2 heures avant votre entraînement et un repas post-entraînement avec des protéines et des glucides dans les 30 minutes. Consultez nos nutritionnistes pour des conseils personnalisés.",
+         "Une bonne nutrition est essentielle pour le fitness. Envisagez un régime riche en protéines maigres, en grains entiers et en légumes. Pour des recommandations alimentaires personnalisées, nos experts en nutrition sont disponibles pour des consultations.",
+         "Pour améliorer vos résultats en fitness, maintenez une alimentation riche en protéines, en graisses saines et en glucides complexes. Notre gym propose également des consultations en nutrition pour vous aider avec vos besoins alimentaires spécifiques."
+       ]
+     },
+     {
+       "tag": "bmi_advice",
+       "patterns": [
+         "Pouvez-vous me donner des conseils sur mon IMC ?",
+         "Que faire si mon IMC est élevé ?",
+         "Comment puis-je améliorer mon IMC ?",
+         "Parlez-moi des recommandations pour l'IMC.",
+         "Quelles sont les meilleures pratiques pour gérer l'IMC ?"
+       ],
+       "responses": [
+         "Si votre IMC est élevé, envisagez d'incorporer un régime équilibré et un exercice régulier dans votre routine. Consultez un expert en fitness ou un nutritionniste pour des conseils personnalisés adaptés à vos besoins.",
+         "Pour gérer un IMC élevé, concentrez-vous sur une combinaison d'exercices cardiovasculaires, de musculation et d'une alimentation saine. Nos entraîneurs et nutritionnistes peuvent fournir des recommandations personnalisées.",
+         "Améliorer votre IMC nécessite une approche équilibrée avec une activité physique régulière et une alimentation nutritive. Discutez avec nos professionnels du fitness pour des conseils adaptés pour atteindre vos objectifs."
+       ]
+     },
+     {
+       "tag": "facility_info",
+       "patterns": [
+         "Quels équipements avez-vous dans le gym ?",
+         "Parlez-moi de vos équipements de gym.",
+         "Avez-vous une piscine ?",
+         "Quels sont les équipements disponibles au gym ?",
+         "Y a-t-il des caractéristiques spéciales dans votre gym ?"
+       ],
+       "responses": [
+         "Notre gym dispose d'équipements à la pointe de la technologie, y compris des machines cardio, des équipements de musculation, une piscine et un sauna. Nous offrons également des vestiaires et un bar à jus.",
+         "Nous proposons une gamme d'équipements modernes tels qu'un centre de fitness complet, une piscine, une zone spa et des studios pour des cours de groupe. Pour une liste détaillée des équipements, veuillez nous contacter.",
+         "Notre gym comprend divers équipements comme un centre de fitness entièrement équipé, une piscine, un hammam, et un espace pour les cours de groupe. Visitez notre site web ou contactez-nous pour plus de détails."
+       ]
+     },
+     {
+       "tag": "class_schedule",
+       "patterns": [
+         "Quel est le programme des cours de fitness ?",
+         "Pouvez-vous me donner l'emploi du temps des cours de gym ?",
+         "Quand sont les prochains cours de yoga et de Pilates ?",
+         "Donnez-moi le programme des entraînements en groupe.",
+         "Comment puis-je trouver le programme des cours ?"
+       ],
+       "responses": [
+         "Vous pouvez trouver le programme de tous les cours de fitness sur notre site web ou à la réception du gym. Nous proposons des cours tout au long de la journée, y compris du yoga, du Pilates et plus encore.",
+         "Les horaires des cours sont disponibles en ligne et à notre réception. Consultez notre site web pour les dernières mises à jour sur les horaires des cours et leur disponibilité.",
+         "Pour obtenir le programme le plus récent, y compris le yoga et le Pilates, veuillez visiter notre site web ou vous renseigner à la réception pour les horaires."
+       ]
+     },
+     {
+       "tag": "feedback",
+       "patterns": [
+         "Comment puis-je donner mon avis sur le gym ?",
+         "J'ai quelques suggestions pour améliorer.",
+         "Puis-je laisser un avis sur vos services ?",
+         "Où puis-je soumettre mon avis ?",
+         "Dites-moi comment fournir un retour sur mon expérience."
+       ],
+       "responses": [
+         "Nous accueillons vos retours ! Vous pouvez soumettre vos suggestions ou avis via le formulaire de retour sur notre site web ou directement à la réception du gym.",
+         "Pour laisser un avis ou des suggestions, veuillez utiliser le formulaire de retour sur notre site web ou parler à un membre du personnel au gym.",
+         "Vos retours sont importants pour nous. Veuillez fournir vos commentaires via notre formulaire en ligne ou les partager à la réception."
+       ]
+     }
+   ]
+ }
+ 
